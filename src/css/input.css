@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.box:hover div {
+  bottom: 0;
+  transition: 1s all;
+}
+
+@layer components {
+  .btn-blu {
+    @apply bg-blue-400 rounded-[10px] text-white w-fit p-2 m-2;
+  }
+  .tube {
+    @apply bg-red-700 text-white p-1 m-2 rounded-[10px];
+  }
+  .sorce {
+    @apply bg-green-600 text-white p-1 m-2 rounded-[10px];
+  }
+  .categry {
+    @apply bg-[#F8D7DA]   text-white p-1 m-2 rounded-[10px] w-fit;
+  }
+  .ro {
+    @apply flex justify-center items-start flex-wrap;
+  }
+}

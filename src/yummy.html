@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="icon" href="./imge/logo.png" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/input.css" />
+  </head>
+  <body class="bg-black text-[white]">
+    <div
+      id="sideNav"
+      class="bg-black text-white left-[-440px] fixed h-full z-50 flex"
+    >
+      <div
+        id="navleft"
+        class="flex h-full justify-around flex-col items-center"
+      >
+        <ul>
+          <li id="search" class="mb-10">
+            <span class="text-[30px] relative hidden">search</span>
+          </li>
+          <li id="Categories" class="mb-10">
+            <span class="text-[30px] relative hidden">Categories</span>
+          </li>
+          <li id="Area" class="mb-10">
+            <span class="text-[30px] relative hidden">Area</span>
+          </li>
+          <li id="Ingredients" class="mb-10">
+            <span class="text-[30px] relative hidden">Ingredients</span>
+          </li>
+
+          <li id="ContactUs" class="mb-10">
+            <span class="text-[30px] relative hidden">Contact Us</span>
+          </li>
+        </ul>
+
+        <div class="p-10">
+          <div class="mb-20">
+            <i class="text-[30px] me-4 fa-brands fa-facebook"></i>
+            <i class="text-[30px] me-4 fa-brands fa-twitter"></i
+            ><i class="text-[30px] fa-solid fa-globe"></i>
+          </div>
+          <p class="text-[20px]">Copyright Â© 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="bg-white flex flex-col justify-around items-center p-6">
+        <div class="text-[50px]">😋</div>
+        <div id="navside">
+          <i
+            id="reblaceToggel"
+            class="text-[40px] text-black fa-solid fa-sliders"
+          ></i>
+        </div>
+        <div>
+          <i class="text-[30px] text-black fa-solid fa-globe"></i>
+          <i class="text-[30px] fa-solid text-black fa-share-from-square"></i>
+        </div>
+      </div>
+    </div>
+    <!-- HOME -->
+    <section id="home" class="p-10 block border-green-500">
+      <div class="container">
+        <div
+          id="boxhome"
+          class="flex gap-7 justify-center items-center flex-wrap"
+        ></div>
+      </div>
+    </section>
+    <!-- details -->
+    <section id="details" class="hidden">
+      <div class="container">
+        <div id="boxdetails" class="ro"></div>
+      </div>
+    </section>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/yummy.js"></script>
+  </body>
+</html>
