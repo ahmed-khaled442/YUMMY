@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "dist"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "yummy.est"
+  }
+}

@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -665,10 +665,6 @@ video {
 
 .bottom-\[-400px\] {
   bottom: -400px;
-}
-
-.left-\[-400px\] {
-  left: -400px;
 }
 
 .left-\[-440px\] {
